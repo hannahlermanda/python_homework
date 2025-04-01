@@ -1,0 +1,9 @@
+I had cake. :D
+I played outside!
+I high fived my mom.
+I had hot cocoa.
+done for now
+import traceback
+
+
+
