@@ -11,21 +11,7 @@ except sqlite3.Error as e:
     print(f"Database was not made successfully: {e}")
 
 #Task 2: Define Database Structure
-    #Publishers
-        #Unique name
-            #Publisher_name = foreign key
-    #Magazines
-        #Unique name
-    #Subscribers
-        #Name
-        #Address
-    #Subscriptions (Join table)
-        #Expiration_date (string)
-        #Name
-            #Subscriber_name_subscription = Foreign Key
-        #Address
-        #Magazines
-            #Magazine_name_subscription = Foreign Key
+
 try:
     #Create the Publishers table
     cursor.execute('''
