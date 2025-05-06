@@ -29,7 +29,7 @@ with sqlite3.connect("../db/lesson.db") as conn:
     grouped_by_product_id = df.groupby('product_id').agg(
         line_item_count=('line_item_id', 'count'),
         total_sum=('total', 'sum'),
-        first_product_name=('product_name', 'first')
+        product_name=('product_name', 'first')
     )
 
     #Print the first 5 lines
