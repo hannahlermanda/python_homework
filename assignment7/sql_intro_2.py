@@ -36,7 +36,7 @@ with sqlite3.connect("../db/lesson.db") as conn:
     print(grouped_by_product_id.head())
 
     #Sort the DataFrame by the product_name column
-    grouped_by_product_id = df.sort_values(by='product_name', ascending=True)
+    grouped_by_product_id = grouped_by_product_id.sort_values(by='product_name', ascending=True)
 
     #Print the first 5 lines
     print(grouped_by_product_id.head())
