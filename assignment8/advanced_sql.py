@@ -73,7 +73,7 @@ engine = sa.create_engine(f'sqlite:///{db_path}')
 tables = ["customers", "employees", "products", "orders", "line_items"]
 
 #CSV folder path
-csv_dir = os.path.expanduser("~/Downloads/python_class/python_homework/csv")
+csv_dir = os.path.expanduser("../csv")
 
 #Load data from CSVs into the tables
 for table in tables:
