@@ -1,0 +1,7 @@
+#Task 6: Scraping Structured Data cont.
+
+It took a little while to go through the structure of the DOM to figure out where exactly the elements I needed were.
+Sometimes I wasn't as specific as I needed to be, which resulted in a bit of trial and error until I extracted all of the elements I needed from the webpages.
+It also took a little bit of time to do the challenge of automating the web scraped to go through each individual page in the library example, but after doing a bit of research I had a general idea of what I needed to play around with.
+I liked seeing the page pop up and watch the scraper go through everything; it reassured me that things were moving while I was waiting for the results.
+I appreciate all of the little hints through the lesson.
