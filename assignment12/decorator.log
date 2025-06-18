@@ -1,0 +1,15 @@
+function: hiya
+positional parameters: none
+keyword parameters: none
+return: None
+------------------------------
+function: check_args
+positional parameters: [1, 2, 3, 'a', 'b']
+keyword parameters: none
+return: True
+------------------------------
+function: return_decorator
+positional parameters: none
+keyword parameters: {'name': 'Crush', 'age': 150}
+return: <function logger_decorator at 0x000001D3AD05A2A0>
+------------------------------
